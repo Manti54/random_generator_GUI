@@ -12,7 +12,7 @@ def show_winner():
 app = QApplication([])
 window = QWidget()
 
-window.resize(600,400)
+window.resize(800,400)
 
 question_text = QLabel('Кто победитель?')
 winner = QLabel('????????????')
